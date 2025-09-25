@@ -1,6 +1,6 @@
 # DXM Radar Toolkit
 
-CLI toolkit for Banner DXM wireless controllers and radar sensors via Modbus TCP.
+CLI toolkit for Banner DXM controllers and radar sensors via Modbus TCP. Currently supporting Q90R ONLY.
 
 ## Installation
 
