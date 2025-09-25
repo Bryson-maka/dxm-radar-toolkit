@@ -1,0 +1,36 @@
+# DXM Radar Toolkit Configuration
+
+# Network Configuration
+network:
+  dxm_ip: "192.168.0.1"
+  modbus_port: 502
+  timeout: 5.0
+  retry_attempts: 3
+
+# Sensor Configuration
+sensors:
+  max_modules: 8
+  base_unit_id: 1
+  monitor_interval: 1.0
+  distance_unit: "mm"
+
+# Display Configuration
+display:
+  use_colors: true
+  table_format: "grid"
+  distance_precision: 1
+  show_timestamps: true
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  log_to_file: false
+  log_file: "dxm_toolkit.log"
+
+# Advanced Settings
+advanced:
+  modbus_debug: false
+  custom_registers: {}
+  iolink:
+    big_endian: true
+    auto_detect_endian: false
